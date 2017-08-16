@@ -7,3 +7,6 @@ A media home server to stream video from your laptop to any device on the same W
 Learned from multiple resources on the Internet - can't remember them all.
 To use, place all your videos in the [`static`](/static) folder run
 `python media_server.py`.
+
+Currently, this lacks a good front-end design. I will add them when I get time.
+In the meantime, pull requests are welcome!
