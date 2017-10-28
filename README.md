@@ -11,3 +11,12 @@ videos in it, then run
 
 Currently, this lacks a good front-end design. I will add them when I get time.
 In the meantime, pull requests are welcome!
+
+Screenshots
+![1](https://github.com/mohan-mu/home-server/blob/master/1.png)
+
+![2](https://github.com/mohan-mu/home-server/blob/master/2.png)
+
+![3](https://github.com/mohan-mu/home-server/blob/master/3.png)
+
+![4](https://github.com/mohan-mu/home-server/blob/master/3.png)
