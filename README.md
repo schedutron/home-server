@@ -13,6 +13,6 @@ In the meantime, pull requests are welcome!
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/8960296/32135160-586dd54a-bbf2-11e7-891f-02039f32d0a1.png" />
+<img src="https://user-images.githubusercontent.com/10780151/32139461-d67ff380-bc49-11e7-9d9b-ae580196b754.png" />
 
-<img src="https://user-images.githubusercontent.com/8960296/32135161-58899ef6-bbf2-11e7-8a0c-9cf059514f45.png" />
+<img src="https://user-images.githubusercontent.com/10780151/32139462-d6994e16-bc49-11e7-96aa-bd7965226d6a.png" />
