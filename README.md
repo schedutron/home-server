@@ -10,3 +10,9 @@ To use, place all your videos in 'static/video', then run
 
 Currently, this lacks a good front-end design. I will add them when I get time.
 In the meantime, pull requests are welcome!
+
+## Screenshots
+
+<img src="https://user-images.githubusercontent.com/8960296/32135160-586dd54a-bbf2-11e7-891f-02039f32d0a1.png" />
+
+<img src="https://user-images.githubusercontent.com/8960296/32135161-58899ef6-bbf2-11e7-8a0c-9cf059514f45.png" />
