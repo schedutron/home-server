@@ -3,10 +3,10 @@
 
 <h3> {{ title }} </h3>
   <video controls>
-    <source src="../static/{{ video_file }}" type="video/mp4">
-    <source src="../static/{{ video_file }}" type="video/mkv">
-    <track label="English" kind="subtitles" srclang="en" src="../static/subt.vtt" default>
+    <source src="../static/video/{{ video_file }}" type="video/mp4">
+    <source src="../static/video/{{ video_file }}" type="video/mkv">
+    <track label="English" kind="subtitles" srclang="en" src="../static/video/subt.vtt" default>
     Your browser does not support this video format.
   </video>
-  <h3><a href="/">Home</a></h3>
+  <p><a href="/">Home</a></p>
 {% endblock %}
