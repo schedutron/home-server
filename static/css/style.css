@@ -36,4 +36,5 @@ video {
   display: block;
   margin: 0 auto;
   width: 90%;
+  max-width: 800px
 }
