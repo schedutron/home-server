@@ -19,4 +19,4 @@ Screenshots
 
 ![3](https://github.com/mohan-mu/home-server/blob/master/3.png)
 
-![4](https://github.com/mohan-mu/home-server/blob/master/3.png)
+![4](https://github.com/mohan-mu/home-server/blob/master/4.png)
