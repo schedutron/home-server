@@ -38,3 +38,6 @@ video {
   width: 90%;
   max-width: 800px
 }
+.animated {
+  animation-duration: 1s !important;
+}
