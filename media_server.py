@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 
 reload(sys)
 sys.setdefaultencoding('utf8')
-video_dir = 'static'
+video_dir = 'static/videos'
 
 app = Flask(__name__)
 
