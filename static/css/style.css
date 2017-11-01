@@ -11,7 +11,6 @@ body {
 
   color: #9fb1ed;
   font-family: 'PT Sans', sans-serif;
-  height: 100%;
   margin: 2em;
 }
 /* this part is for color */
@@ -19,12 +18,19 @@ p {
   background-color: #5b6c98;
   box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.2);
   padding: 0.75em;
+
 }
 
 a {
+  display: inline-block;
+  position: relative;
   color: white;
   text-decoration: none;
   word-wrap: break-word;
+}
+
+a+video {
+  bottom: 2em ;
 }
 
 h3 {

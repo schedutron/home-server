@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% block play %}
 {% for i in range(video_files_number) %}
-  <p><a href="/{{ video_files[i] }}"> {{ i+1 }}) {{ video_files[i] }} </a></p>
+  <p><video preload="metadata" style="margin: 0 1em 0 0; display: inline-block; height: 5em; width: auto;">
+      <source src="../static/video/{{ video_files[i] }}" type="video/mp4">
+      <source src="../static/video/{{ video_files[i] }}" type="video/mkv">
+      Your browser does not support this video format.
+    </video>
+    <a href="/{{ video_files[i] }}"> {{ i+1 }}) {{ video_files[i] }} </a></p>
 {% endfor %}
 {% endblock %}
