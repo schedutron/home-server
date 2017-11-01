@@ -26,11 +26,23 @@
     <link type="text/css" rel="stylesheet" href="static/css/animate.css">
     <link type="text/css" rel="stylesheet" href="static/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Kreon|PT+Sans:400,700" rel="stylesheet">
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
   </head>
 
   <body class="fadeIn animated">
     {% block play%}{% endblock %}
   </body>
+
+<script>
+	$( document ).ready(function() {
+	  $( ".nightmode_button" ).click(function() {
+	    $("body").toggleClass( "nightmode" );
+	  });
+	});
+</script>
 
 </html>
