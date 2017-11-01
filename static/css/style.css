@@ -49,3 +49,4 @@ video {
   background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #212945 100%); /* Chrome10-25,Safari5.1-6 */
   background: radial-gradient(ellipse at center, #000000 0%, #212945 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#212945',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
