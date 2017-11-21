@@ -15,7 +15,7 @@ def index():
     return render_template("index.html", title='Home', video_files_number=video_files_number, video_files=video_files)
 @app.route('/<filename>')
 def video(filename):
-    return render_template('play.html', title=filename, video_file=filename)
+    return render_template('play.html', title=str(filename)[:-4], video_file=filename)
 @app.route('/test')
 def test():
     return render_template('test.html')
