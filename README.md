@@ -50,14 +50,14 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
         </br>
         <a href="https://github.com/KarolMilewski">Karol Milewski</a>
       </td>
-    </tr>
-    <tr>
       <td align="center">
         <img width="150" height="150"
         src="https://github.com/naman.png?v=3&s=150">
         </br>
         <a href="https://github.com/naman">Naman Gupta</a>
       </td>
+    </tr>
+    <tr>
       <td align="center">
         <img width="150" height="150"
         src="https://github.com/allanburleson.png?v=3&s=150">
@@ -81,18 +81,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
         src="https://github.com/pjhampton.png?v=3&s=150">
         </br>
         <a href="https://github.com/pjhampton">pjhampton</a>
-      </td>
-      <td align="center">
-        <img width="150" height="150"
-        src="https://github.com/shreya-jain4.png?v=3&s=150">
-        </br>
-        <a href="https://github.com/shreya-jain4">shreya-jain4</a>
-      </td>
-      <td align="center">
-        <img width="150" height="150"
-        src="https://github.com/shreya-jain4.png?v=3&s=150">
-        </br>
-        <a href="https://github.com/shreya-jain4">shreya-jain4</a>
       </td>
       <td align="center">
         <img width="150" height="150"
