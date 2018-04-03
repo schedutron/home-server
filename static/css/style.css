@@ -4,10 +4,6 @@ html {
 
 body {
   background: rgb(67,83,134); /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, rgba(67,83,134,1) 0%, rgba(41,51,86,1) 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(67,83,134,1) 0%,rgba(41,51,86,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, rgba(67,83,134,1) 0%,rgba(41,51,86,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#435386', endColorstr='#293356',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
   color: #9fb1ed;
   font-family: 'PT Sans', sans-serif;
@@ -20,12 +16,16 @@ p {
   box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.2);
   padding: 0.75em;
   border-radius: 5px;
+  border: 1px solid #8c9dd673;
 }
 
 a {
   color: white;
   text-decoration: none;
   word-wrap: break-word;
+}
+a:hover{
+  color:#c1c9db;
 }
 
 h3 {
@@ -36,17 +36,35 @@ h3 {
 video {
   display: block;
   margin: 0 auto;
-  width: 90%;
-  max-width: 800px
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 10px;
+}
+
+body > div.col-lg-12 > video{
+  max-width: 100%;
 }
 .animated {
   animation-duration: 1s !important;
 }
 .nightmode {
-  background: rgb(67,83,134); /* Old browsers */
-  background: radial-gradient(ellipse at center, #000000 0%, #212945 100%);
-  background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #212945 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #212945 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #000000 0%, #212945 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#212945',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #151a29;
+}
+.lbutton{
+  text-align: center;
+}
+.remote{
+  background-color: #263051;
+  border: 1px solid #6983d4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.remote .btn{
+  margin-bottom: 10px;
+}
+.remote_title{
+  font: 400 1.4em 'Merienda One', Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
 }
