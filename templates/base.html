@@ -37,6 +37,13 @@
       
     </head>
     <body class="fadeIn animated">
+      <div class="container">
+        <div class="topmenu">
+          <a class="btn btn-primary" href="/">Home</a>
+          <a class="nightmode_button btn btn-primary"><i class="fa fa-moon-o" aria-hidden="true"></i> Night Mode</a>
+          <a href="/lazy" class="btn btn-primary">Lazy Mode</a>
+        </div>
+      </div>
 
       {% block play %}{% endblock %}
       {% block lazy %}{% endblock %}
@@ -46,10 +53,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="../static/js/lazy.js"></script>
-      <div class="container">
-        <a class="nightmode_button btn btn-primary"><i class="fa fa-moon-o" aria-hidden="true"></i> Night Mode</a>
-        <a href="/lazy" class="btn btn-primary">Lazy Mode</a>
-      </div>
     </body>
   </html>
 

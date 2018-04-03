@@ -11,7 +11,7 @@ body {
   margin: 2em;
 }
 /* this part is for color */
-p {
+p, .topmenu {
   background-color: #5b6c98;
   box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.2);
   padding: 0.75em;
@@ -66,5 +66,12 @@ body > div.col-lg-12 > video{
 .remote_title{
   font: 400 1.4em 'Merienda One', Helvetica, sans-serif;
   text-align: center;
+  margin-bottom: 10px;
+}
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.topmenu{
   margin-bottom: 10px;
 }
