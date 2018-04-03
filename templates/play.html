@@ -1,14 +1,18 @@
 {% extends 'base.html' %}
 {% block play %}
 
-<h3> {{ title }} </h3>
-  <video controls>
-    <source src="../static/video/{{ video_file }}" type="video/mp4">
-    <source src="../static/video/{{ video_file }}" type="video/mkv">
-    <source src="../static/video/{{ video_file }}" type="video/mov">
-    <track label="English" kind="subtitles" srclang="en" src="../static/video/subt.vtt" default>
+<div class="col-lg-12">
+
+  <h3> {{ title }} </h3>
+  <video controls id="video_id" autoplay>
+    {% set url = url_for('static', filename="video/" + video_file) %}
+    <source src="{{ url }}" type="video/mp4" max-width="100%">
+    <source src="{{ url }}" type="video/mkv">
+    <source src="{{ url }}" type="video/mov">
+    <!-- <track label="English" kind="subtitles" srclang="en" src="../static/video/subt.vtt" default> -->
     Your browser does not support this video format.
   </video>
-  <p><a href="/">Home</a></p>
-  <div class="nightmode_button"><i class="fa fa-moon-o" aria-hidden="true"></i> Night Mode</div>
+</div>
+
+
 {% endblock %}

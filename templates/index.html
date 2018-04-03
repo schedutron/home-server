@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
 {% block play %}
-{% for i in range(video_files_number) %}
-  <p><a href="/{{ video_files[i] }}"> {{ i+1 }}) {{ video_files[i] }} </a></p>
-{% endfor %}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+        {% for video in video_files %}
+          <p><a href="/{{ video }}"> {{ video }} </a></p>
+        {% endfor %}
+          <!-- remote/lazy mode relies on this -->
+          <div class="isindex"></div>
+          <!-- remote/lazy mode relies on this -->
+    </div>
+  </div>
+</div>
 {% endblock %}

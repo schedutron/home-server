@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block lazy %}
+<div class="container">
+    <div class="row">
+        <div class="lbutton col-sm-12">
+            <div class="remote">
+                <div class="remote_title">
+                    LAZY MODE
+                </div>
+                <div>Use lazy mode on your phone to control your
+                    browser remotely.</div>
+                    <br>
+                <!-- <button type="button" id="btnBrowserBack" class="btn btn-primary">Back</button>
+                <button type="button" id="btnBrowserForward" class="btn btn-primary">Forward</button> -->
+                <button type="button" id="btnNightmode" class="btn btn-primary"><i class="fa fa-moon-o" aria-hidden="true"></i> Night Mode</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="lbutton col-sm-12">
+            {% for video in video_files %}
+            <p><a href="#" class="btnPlayMovie">{{ video }}</a></p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

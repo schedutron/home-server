@@ -1,5 +1,5 @@
 # Home Media Server
-(Python2)
+( >= Python 3.4.2)
 
 A media home server to stream video from your laptop to any device on the same Wi-Fi
 (can be broadcasted to the Internet as well)!
@@ -20,6 +20,9 @@ In the meantime, pull requests are welcome!
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Credits
+Music: <a href="https://www.bensound.com">Bensound</a>
 
 ## Maintainers
 
