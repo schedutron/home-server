@@ -1,6 +1,8 @@
 import os, sys
 from flask import Flask, request, render_template
 from config import Config
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -8,6 +10,8 @@ video_dir = 'static/video/'
 
 app = Flask(__name__)
 app.config.from_object(Config)
+db = SQLAlchemy(app)
+migrate = Migrate(app, db)
 
 @app.route('/')
 @app.route('/home')
@@ -21,5 +25,5 @@ def video(filename):
 @app.route('/test')
 def test():
     return render_template('test.html')
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+import models #circular imports
+
