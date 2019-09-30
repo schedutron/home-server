@@ -1,11 +1,13 @@
 import os, sys
 from flask import Flask, request, render_template
+from config import Config
 
 reload(sys)
 sys.setdefaultencoding('utf8')
 video_dir = 'static/video/'
 
 app = Flask(__name__)
+app.config.from_object(Config)
 
 @app.route('/')
 @app.route('/home')
