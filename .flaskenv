@@ -1,1 +1,1 @@
-FLASK_APP=media_server.py
+FLASK_APP=main.py

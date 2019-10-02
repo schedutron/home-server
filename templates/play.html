@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
 {% block play %}
-
 <h3> {{ title }} </h3>
   <video controls>
     <source src="../static/video/{{ video_file }}" type="video/mp4">
@@ -9,6 +8,36 @@
     <track label="English" kind="subtitles" srclang="en" src="../static/video/subt.vtt" default>
     Your browser does not support this video format.
   </video>
+  
+  <button name="like"><i class='fa fa-thumbs-up'></i></button>
+  <button name="dislike"><i class='fa fa-thumbs-down'></i></button>
+
   <p><a href="/">Home</a></p>
   <div class="nightmode_button"><i class="fa fa-moon-o" aria-hidden="true"></i> Night Mode</div>
+
+<script> 
+
+console.log("in");
+
+$(document).ready(function(){
+    console.log("ready");
+    function post(datatopost, url) {	
+	    console.log("post");
+        return $.ajax(url, 
+		    {
+		        data : {data: datatopost},
+			    type: 'POST',
+		    });
+    }
+
+    $("button[name=like]").on('click', function() {
+        post("plus", "/{{ video_file }}")
+    });
+    $("button[name=dislike]").on('click', function() {
+        post("minus", "/{{ video_file }}")
+    });
+});
+
+</script>
+
 {% endblock %}

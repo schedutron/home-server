@@ -1,4 +1,4 @@
-from media_server import db
+from globalimports import db
 
 class Video(db.Model):
     id = db.Column(db.Integer, primary_key=True)
