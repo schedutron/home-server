@@ -1,14 +1,26 @@
-{% extends 'base.html' %}
-{% block play %}
+{% extends 'base.html' %} {% block play %}
 
-<h3> {{ title }} </h3>
+<h3 class="wow fadeInDown" data-wow-delay="0.2s">{{ title }}</h3>
+<div class="wow fadeIn" data-wow-delay="0.7s">
   <video controls>
-    <source src="../static/video/{{ video_file }}" type="video/mp4">
-    <source src="../static/video/{{ video_file }}" type="video/mkv">
-    <source src="../static/video/{{ video_file }}" type="video/mov">
-    <track label="English" kind="subtitles" srclang="en" src="../static/video/subt.vtt" default>
+    <source src="../static/video/{{ video_file }}" type="video/mp4" />
+    <source src="../static/video/{{ video_file }}" type="video/mkv" />
+    <source src="../static/video/{{ video_file }}" type="video/mov" />
+    <track
+      label="English"
+      kind="subtitles"
+      srclang="en"
+      src="../static/video/subt.vtt"
+      default
+    />
     Your browser does not support this video format.
   </video>
-  <p><a href="/">Home</a></p>
-  <div class="nightmode_button"><i class="fa fa-moon-o" aria-hidden="true"></i> Night Mode</div>
+</div>
+
+<p class="wow fadeIn" data-wow-delay="0.7s">
+  <a href="/" class="wow fadeIn" data-wow-delay="0.7s">Home</a>
+</p>
+<div class="nightmode_button wow fadeIn" data-wow-delay="0.7s">
+  <i class="fa fa-moon-o" aria-hidden="true"></i> Night Mode
+</div>
 {% endblock %}
