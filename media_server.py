@@ -1,9 +1,13 @@
 import os
 import sys
 from flask import Flask, request, render_template
+from importlib import reload
 
+# reload(sys)
+# sys.setdefaultencoding('utf8')
 reload(sys)
-sys.setdefaultencoding('utf8')
+sys.setdefaultencoding("utf-8")
+
 video_dir = 'static/video/'
 
 app = Flask(__name__)
@@ -28,4 +32,4 @@ def test():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+    app.run(host='localhost', debug=True)
